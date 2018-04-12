@@ -89,9 +89,6 @@ function ZeroClientProvider(opts = {}){
   }
   engine.addProvider(dataSubprovider)
 
-  // start polling
-  engine.start()
-
   return engine
 
 }
